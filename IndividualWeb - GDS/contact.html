@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>SLIGH | My Future</title>
+<link rel="stylesheet" type="text/css" href="css/style5.css">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+<!--For Responsive Web Design Using Media Queries - CSS3 -->
+<meta name="viewport" content = "width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <div class="logo">
+      <a href="index.html"><img src="images/Logo.jpg" alt="SLIGH"></a>
+      <!-- <p>letterboxd</p> -->
+    </div>
+    <ul>
+        <!-- <li><a href="#" class="active">SIGN IN</a></li> -->
+        <li><a  href="index.html">HOME</a></li>
+        <li><a  href="about.html">ABOUT</a></li>
+        <li><a  href="work.html">WORK</a></li>
+        <li><a  href="future.html">FUTURE</a></li>
+        <li><a  class="current" href="contact.html">CONTACT</a></li>
+
+    </ul>
+  </nav>
+
+  <div class="row">
+    <div class="column" style="background-color:#c4fff8;"> <!--Colour Orange-->
+      <table style="width: 100%; height:100%; border-color: black;" border="3">
+        <tbody>
+          <td><b>Work Hours ATM</b></td>
+          <td><b>Times</b></td>
+          <tr>
+          <td>Monday</td>
+          <td>9:30 - 20:15</td>
+          </tr>
+          <tr>
+          <td>Tuesday</td>
+          <td>9:30 - 20:15</td>
+          </tr>
+          <tr>
+          <td>Wednesday</td>
+          <td>9:30 - 20:00</td>
+          </tr>
+          <tr>
+          <td>Thursday</td>
+          <td>9:30 - 20:15</td>     <!--Time Table-->
+          </tr>
+          <tr>
+          <td>Friday</td>
+          <td>9:30 - 20:15</td>
+          </tr>
+          <tr>
+          <td>Saturday</td>
+          <td>10:15-20:00</td>
+          </tr>
+          <tr>
+          <td>Sunday</td>
+          <td>11:30-18:00</td>
+          </tr>
+          <tr>
+          <td>Bank Holidays</td>
+          <td>9:00 - 17:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="column" style="background-color:#c4fff8;">
+    <img src="images/contPic.jpeg" alt="Barber Posing" style="height: 100%; width:100%">
+    </div>
+
+    <div class="column" style="background-color:#c4fff8;">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="mail" name="email" placeholder="example@gmail.com..">
+
+        <label for="num">Phone Number</label>
+        <input type="text" id="pnum" name="email" placeholder="087..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Type here..." style="height:70px"></textarea>
+      </form>
+
+
+        <div class="butt">                      <!--Position the"Submit" button on the page -->
+        <button onclick="myFunction()">Submit</button>
+        </div>
+
+      <script>
+        function myFunction()
+        {
+          var txt;
+          txt = alert("Your Query has been submitted. ");
+
+        }
+      </script> <!--Alert Box pop-up to tell user his submission was successful-->
+    </div>
+
+
+    <footer>
+      <div class="row">
+        <div class="chunk" style="background-color:black ; color: #03fcf0;">
+                      <!--Footer features-->
+          <ul class="social-icons">
+            <li><a class="linkedin" href="https://www.linkedin.com/in/david-slupko-b137301b9/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="github" href="https://github.com/Slupkovich" target="_blank"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="chunk" style="background-color:black ; color: #03fcf0;">
+                          <!--Footer features-->
+          <ul class="social-icons">
+            <li><a class="telegram" href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+            <li><a class="dev" href="#" target="_blank"><i class="fab fa-dev"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="chunk" style="background-color: black ; color: #03fcf0;">
+
+          <ul class="social-icons">
+          <li><a class="twitter" href="https://twitter.com/DSlupko" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="instagram" href="#" target="_blank"><i class="fab fa-instagram" ></i></a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+</div>
+
+</body>
+</html>
